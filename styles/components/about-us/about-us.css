@@ -1,0 +1,46 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
+.about-us__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    width: 80%;
+
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.205);
+    border-radius: 15px;
+    overflow: hidden;
+
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 80%;
+    }
+}
+.about-us__title {
+    font-size: 5rem;
+    margin-left: 40px;
+}
+.about-us__description {
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: 40px;
+    text-align: right;
+    max-width: 45%;
+}
+.description2 {
+    position: relative;
+    bottom: 60px;
+    margin-left: 40px;
+    text-align: left;
+}
+.description3 {
+    position: relative;
+    top: 60px;
+}
