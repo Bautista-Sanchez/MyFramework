@@ -1,0 +1,98 @@
+/* Mobile-First Adjustments */
+.hero {
+  margin-top: -125px;
+  position: relative;
+  display: flex;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+/* Background */
+.hero__background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.hero__background-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Overlay */
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+}
+
+/* Content layout */
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Typography */
+.hero__title {
+  margin-top: 10rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.hero__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+
+/* Buttons */
+.hero__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero__btn {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 140px;
+  background-color: var(--primary-color);
+  border-radius: 7px;
+  transition: all var(--transition-speed-fast) ease-in-out;
+}
+
+.hero__btn:hover {
+  transform: scale(1.03);
+  background-color: var(--primary-accent-color);
+  box-shadow: 0 0 30px var(--primary-accent-color);
+}
+
+/* Desktop Adjustments */
+@media (min-width: 1280px) {
+  .hero__title {
+    margin-left: 16%;
+    font-size: 4.4rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .hero__subtitle {
+    margin-left: 16%;
+    font-size: 2.1rem;
+  }
+
+  .hero__actions {
+    gap: 2rem;
+  }
+
+  .hero__btn {
+    font-weight: 400;
+    height: 80px;
+    width: 200px;
+    font-size: 1.4rem;
+  }
+}

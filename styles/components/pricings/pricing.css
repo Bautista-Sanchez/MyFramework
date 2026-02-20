@@ -1,0 +1,125 @@
+/* Mobile-First Adjustments */
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.pricing__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Card layout & style */
+.pricing__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 85%;
+  height: auto;
+  padding-bottom: 40px;
+
+  background-color: var(--background-accent-color);
+  border-radius: 2px;
+  border: 1px solid var(--primary-darken-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.507);
+}
+
+/* Titles & typography */
+.pricing__item-title {
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 18%;
+  font-size: 2rem;
+  color: rgb(121, 77, 20);
+}
+
+.pricing__feature {
+  margin-left: 10%;
+  font-weight: 400;
+}
+
+.pricing__benefit {
+  margin-left: auto;
+  margin-right: 10%;
+  font-weight: 600;
+  text-align: end;
+}
+
+.pricing__price {
+  margin-right: auto;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Containers & layouts */
+.pricing__features-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.pricing__features-container li {
+  margin-bottom: 20px;
+}
+
+.pricing__button-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Buttons & hover */
+.order__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 15px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-darken-color);
+  border-radius: 5px;
+  width: 40%;
+  height: 50px;
+
+  transition: all var(--transition-speed-fast) ease;
+}
+
+.order__button:hover {
+  transform: scale(1.1);
+  background-color: var(--primary-accent-color);
+}
+
+/* Desktop Adjustments */
+@media (min-width: 1280px) {
+  .pricing__item {
+    width: 26%;
+    min-height: 600px;
+  }
+
+  /* Titles & typography */
+  .pricing__item-title {
+    font-size: 2.7rem;
+  }
+
+  .pricing__features-container li {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+  }
+
+  /* Buttons & hover */
+  .order__button {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+}

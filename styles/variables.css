@@ -1,0 +1,61 @@
+:root {
+    /* Devices Breakpoints */
+    --tablet: 768px;
+    --desktop: 1024px;
+
+    /* Colours */
+    --primary-color: #e99e2d;
+    --primary-darken-color: #aa6e15;
+    --primary-accent-color: #f3bf50;
+
+    --secondary-color: #333333;
+
+    --background-color: #ffebd3;
+    --background-accent-color: #f0d6b7;
+    --title-color: #6d491d;
+    --subtitle-color: #9c6a31;
+
+    --background-color-1: #ffc880;
+    --background-accent-color-1: #e0a65a;
+    --title-color-1: #ffc880;
+    --subtitle-color-1: #ffc880;
+
+    --background-color-2: #80d0ff;
+    --background-accent-color-2: #54b1e7;
+    --title-color-2: #80d0ff;
+    --subtitle-color-2: #80d0ff;
+
+    --background-color-2: #ceff80;
+    --background-accent-color-2: #a6dd4d;
+    --title-color-3: #ceff80;
+    --subtitle-color-3: #ceff80;
+
+    --background-color-2: #c680ff;
+    --background-accent-color-2: #a256e0;
+    --title-color-4: #c680ff;
+    --subtitle-color-4: #c680ff;
+
+    --navbar-background-color: rgba(255, 255, 255, 0.5);
+    --navbar-color: rgb(0, 0, 0);
+    --navbar-logo-color: rgb(41, 41, 41);
+
+    /* Fonts */
+    --font-primary: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font-secondary: ;
+    --font-size-base: 16px;
+
+    /* Spaces & Sizes */
+    --spacing-medium: 80px;
+    --spacing-large: 150px;
+    --spacing-huge: 250px;
+    --spacing-extreme: 500px;
+
+    --max-width: 90%;
+
+    /* Animations */
+    --transition-speed-fast: 0.2s;
+    --transition-speed-medium: 0.4s;
+    --transition-speed-slow: 0.8s;
+
+
+}

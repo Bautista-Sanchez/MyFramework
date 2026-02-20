@@ -1,0 +1,13 @@
+@import url('global.css');
+@import url('variables.css');
+
+@import url('components/navbars/navbar.css');
+@import url('components/heros/hero.css');
+@import url('components/galleries/gallery.css');
+@import url('components/pricings/pricing.css');
+@import url('components/contacts/contact.css');
+@import url('components/footer/footer.css');
+
+
+@import url('modificators.css');
+

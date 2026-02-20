@@ -1,0 +1,8 @@
+/* Visual Modificators */
+
+.shadow-soft {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.border-r-soft {
+    border-radius: 10px;
+}
